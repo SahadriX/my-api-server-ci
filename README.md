@@ -1,187 +1,69 @@
-# 🚀 Full-Stack API Server with MongoDB + Frontend
+# 🧪 Keploy API Testing & CI/CD Integration Project
 
-This project is a full-stack CRUD API server using **Node.js**, **Express.js**, and **MongoDB** (via Mongoose). It includes an optional frontend for interacting with your APIs.
-
----
-
-## 📌 Features
-
-- ✅ Express-based REST API  
-- ✅ MongoDB database integration via Mongoose  
-- ✅ Full CRUD operations  
-- ✅ Environment variable support  
-- ✅ Optional frontend with Create, Read, Update, Delete forms  
+This project demonstrates the use of **Keploy** for API testing using both the **Keploy CLI** and **Keploy Chrome Extension**. It includes OpenAPI schema generation, AI-based test generation, and CI/CD pipeline integration.
 
 ---
 
-## 📁 Folder Structure
+## ✅ Task 1: CLI-Based API Testing & CI/CD
 
-my-api-server/
-├── models/
-├── routes/
-├── .env
-├── package.json
-├── server.js
-└── frontend/ # (optional)
+### 🔹 OpenAPI Schema
 
- ---
+- I created an OpenAPI schema for my Node.js Express project using manual annotations and tools like [swagger-jsdoc](https://www.npmjs.com/package/swagger-jsdoc).
+- The schema defines all endpoints (`/hello`, `/echo`) with request/response structures.
 
-## 🔌 APIs and Functionality
-
-| Method   | Endpoint             | Description                    |
-|----------|----------------------|--------------------------------|
-| `GET`    | `/ping`              | Health check — returns `pong` |
-| `GET`    | `/api/items`         | Get all items from DB          |
-| `GET`    | `/api/items/:id`     | Get single item by ID          |
-| `POST`   | `/api/items`         | Create a new item              |
-| `PUT`    | `/api/items/:id`     | Update item by ID              |
-| `DELETE` | `/api/items/:id`     | Delete item by ID              |
+> 📁 File: `openapi.yaml` (included in this repo)
 
 ---
 
-## 🧪 Testing Coverage
+### 🔹 AI-Powered API Testing
 
-✅ **Unit Tests**  
-- Model logic (e.g., `Item.js`)
-- Pure functions (sample math logic)
-
-✅ **Integration Tests**  
-- CRUD with in-memory MongoDB using `mongodb-memory-server`
-
-✅ **API Tests**  
-- All endpoints tested using `Supertest`
-- Verified status codes and response bodies
-
-✅ **Coverage Achieved**:  
-> 100% Statements, 100% Branches, 100% Functions, 100% Lines
-
-### ✅ Test Coverage Screenshot
-
-![Test Coverage](./assets/coverage-summary.png)
-![coverage-summary](https://github.com/user-attachments/assets/42e69588-40d1-48e9-abfe-5e82fc95a7bc)
-
-
-
----
-### 🧪 Testing Tools Used
-Jest – Test runner and coverage
-Supertest – HTTP endpoint testing
-mongodb-memory-server – In-memory MongoDB instance
-cross-env – To pass env vars for test mode
-
-
-## 🧱 Database Integration
-
-- **Database**: MongoDB (using MongoDB Atlas cloud)  
-- **ODM**: Mongoose  
-- **Connection**: via `mongoose.connect(process.env.MONGO_URI)` in `.env` file
+- Used `curl` commands to hit the API during a recording session with Keploy.
+- Tests were generated automatically based on real traffic.
+- Then replayed the tests with `keploy test` to validate behavior.
 
 ---
 
-### Sample `.env` File
+🔹 CI/CD Integration
+I used GitHub Actions for CI/CD.
 
- Mongoose Schema
-const Item = mongoose.model('Item', new mongoose.Schema({
-  name: String,
-  price: Number,
-  inStock: Boolean
-}));
+Added a Keploy testing stage that installs dependencies and runs tests via CLI.
 
 ---
 
-### 🧪 Sample API Requests
-➕ Create Item
-POST /api/items
-Content-Type: application/json
-
-{
-  "name": "Keyboard",
-  "price": 999,
-  "inStock": true
-}
+Task 2: Chrome Extension API Testing [Mandatory]
+🔹 Websites Tested Using Keploy Chrome Extension
+Nike.com
+🔗 Referenced using the Keploy Chrome Extension
 
 ---
 
-### 📦 Get All Items
-GET /api/items
+🧪 Process Followed
+Installed the Keploy Chrome Extension and pinned it to the toolbar.
+
+Clicked "Start Recording" and browsed the site.
+
+After interacting, clicked "Stop Recording".
+
+Generated test cases and copied curl commands.
+
+Replayed them using the CLI locally to validate.
+
+![Screenshot 2025-06-27 210318](https://github.com/user-attachments/assets/20797e2c-82a9-4611-9ea6-82dd72b10c49)
 
 ---
 
-### 🔍 Get Item by ID
-GET /api/items/<id>
+📂 GitHub Repo & Submission
+🔗 GitHub Repo: https://github.com/YourUsername/keploy-api-testing
 
----
+📝 Contains:
 
-### ♻️ Update Item
-PUT /api/items/<id>
-Content-Type: application/json
-
-{
-  "price": 899
-}
-
----
-
-### ❌ Delete Item
-DELETE /api/items/<id>
-
----
-
-### 🖥️ How to Run the Server Locally
-1. Clone the Repository
-git clone https://github.com/SahadriX/my-api-server.git
-cd my-api-server
-
-2. Install Dependencies
-npm install
-
-3. Add .env File
-MONGO_URI=<your MongoDB connection string>
-
-4. Start the Server
-npm start
+OpenAPI schema
+Keploy CLI test cases
+Screenshots from CLI and extension
+GitHub Actions CI/CD workflow file
 
 
 
-Test route:
-http://localhost:5000/ping  → returns 'pong'
-
----
-
-### 🌐 How to Run the Frontend (Optional)
-Since I created a frontend inside a frontend/ folder/index.html therefore :
-
-cd frontend
-npm install
-npm start
+ 
 
 
----
-
-### 🧠 Technologies Used
-Node.js
-Express.js
-MongoDB (Atlas)
-Mongoose
-dotenv
-(Optional) HTML/CSS/JS or React for frontend
-
----
-
-### 💡 Example Use Case
-A small e-commerce store admin dashboard to manage product listings using:
-
-A secure MongoDB backend
-RESTful API for CRUD operations
-A simple frontend for interactive item management
-
----
-
-### 🧑‍💻 Author
-Sahadri Bhattacharyya
-GitHub: SahadriX
-
----
-
-### 📄 License
-This project is licensed under the MIT License.

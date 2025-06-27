@@ -1,0 +1,44 @@
+🐰 Keploy: 2025-06-27T11:43:31+05:30 	[31mERROR[0m	Error removing file	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}
+🐰 Keploy: 2025-06-27T11:43:31+05:30 	[31mERROR[0m	Failed to delete Keploy Logs	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}
+🐰 Keploy: 2025-06-27T11:45:47+05:30 	[34mINFO[0m	config file not found; proceeding with flags only
+🐰 Keploy: 2025-06-27T11:45:47+05:30 	[34mINFO[0m	Using the last directory name as appName : my-api-server
+🐰 Keploy: 2025-06-27T11:45:47+05:30 	[34mINFO[0m	Generated config file based on the flags that are used
+🐰 Keploy: 2025-06-27T11:45:47+05:30 	[31mERROR[0m	failed to get service	{"command": "record", "error": "command not supported in non linux os. if you are on windows or mac, please use the dockerized version of your application"}
+🐰 Keploy: 2025-06-27T11:45:47+05:30 	[31mERROR[0m	Error removing file	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}
+🐰 Keploy: 2025-06-27T11:45:47+05:30 	[31mERROR[0m	Failed to delete Keploy Logs	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}
+🐰 Keploy: 2025-06-27T11:46:27+05:30 	[31mERROR[0m	failed to get service	{"command": "record", "error": "command not supported in non linux os. if you are on windows or mac, please use the dockerized version of your application"}
+🐰 Keploy: 2025-06-27T11:46:27+05:30 	[31mERROR[0m	Error removing file	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}
+🐰 Keploy: 2025-06-27T11:46:27+05:30 	[31mERROR[0m	Failed to delete Keploy Logs	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}
+🐰 Keploy: 2025-06-27T12:39:18+05:30 	[34mINFO[0m	Starting keploy in docker with image	{"image:": "ghcr.io/keploy/keploy:v2.6.14"}
+🐰 Keploy: 2025-06-27T12:39:18+05:30 	[34mINFO[0m	Starting keploy in docker with default context, as that is the current context.
+🐰 Keploy: 2025-06-27T07:10:38Z 	[34mINFO[0m	detected that Keploy is running in a docker container
+🐰 Keploy: 2025-06-27T07:10:38Z 	[34mINFO[0m	trying to inject network:keploy-network to the keploy container
+🐰 Keploy: 2025-06-27T07:10:38Z 	[34mINFO[0m	Successfully injected network to the keploy container	{"Keploy container": "keploy-v2", "appNetwork": "keploy-network", "keploy container ip": "172.18.0.3"}
+🐰 Keploy: 2025-06-27T07:10:40Z 	[34mINFO[0m	keploy initialized and probes added to the kernel.
+🐰 Keploy: 2025-06-27T07:10:40Z 	[34mINFO[0m	starting UDP DNS server at addr :26789
+🐰 Keploy: 2025-06-27T07:10:40Z 	[34mINFO[0m	starting TCP DNS server at addr :26789
+🐰 Keploy: 2025-06-27T07:10:40Z 	[34mINFO[0m	Keploy has taken control of the DNS resolution mechanism, your application may misbehave if you have provided wrong domain name in your application code.
+🐰 Keploy: 2025-06-27T07:10:40Z 	[34mINFO[0m	Proxy started at port:16789
+🐰 Keploy: 2025-06-27T07:12:11Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-1"}
+🐰 Keploy: 2025-06-27T07:12:13Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-2"}
+🐰 Keploy: 2025-06-27T07:12:13Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-3"}
+🐰 Keploy: 2025-06-27T07:12:13Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-4"}
+🐰 Keploy: 2025-06-27T07:12:13Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-5"}
+🐰 Keploy: 2025-06-27T07:12:24Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-6"}
+🐰 Keploy: 2025-06-27T07:12:26Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-7"}
+🐰 Keploy: 2025-06-27T07:12:36Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-8"}
+🐰 Keploy: 2025-06-27T07:12:43Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-9"}
+🐰 Keploy: 2025-06-27T07:12:49Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-10"}
+🐰 Keploy: 2025-06-27T07:12:51Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-11"}
+🐰 Keploy: 2025-06-27T07:12:55Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-12"}
+🐰 Keploy: 2025-06-27T07:23:48Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-13"}
+🐰 Keploy: 2025-06-27T07:23:50Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-14"}
+🐰 Keploy: 2025-06-27T07:23:50Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-15"}
+🐰 Keploy: 2025-06-27T07:23:50Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-16"}
+🐰 Keploy: 2025-06-27T07:23:50Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-17"}
+🐰 Keploy: 2025-06-27T07:23:59Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-18"}
+🐰 Keploy: 2025-06-27T07:24:10Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-19"}
+🐰 Keploy: 2025-06-27T07:24:17Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-20"}
+🐰 Keploy: 2025-06-27T07:24:22Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-21"}
+🐰 Keploy: 2025-06-27T07:24:26Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-22"}
+🐰 Keploy: 2025-06-27T07:24:47Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-23"}

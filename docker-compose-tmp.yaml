@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+    my-api-server:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: my-api-server
+        container_name: my-api-server
+        ports:
+            - "5000:5000"
+        networks:
+            - keploy-net
+networks:
+    keploy-net:
+        driver: bridge
+        external: true

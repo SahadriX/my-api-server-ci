@@ -1,44 +1,88 @@
-🐰 Keploy: 2025-06-27T11:43:31+05:30 	[31mERROR[0m	Error removing file	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}
-🐰 Keploy: 2025-06-27T11:43:31+05:30 	[31mERROR[0m	Failed to delete Keploy Logs	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}
-🐰 Keploy: 2025-06-27T11:45:47+05:30 	[34mINFO[0m	config file not found; proceeding with flags only
-🐰 Keploy: 2025-06-27T11:45:47+05:30 	[34mINFO[0m	Using the last directory name as appName : my-api-server
-🐰 Keploy: 2025-06-27T11:45:47+05:30 	[34mINFO[0m	Generated config file based on the flags that are used
-🐰 Keploy: 2025-06-27T11:45:47+05:30 	[31mERROR[0m	failed to get service	{"command": "record", "error": "command not supported in non linux os. if you are on windows or mac, please use the dockerized version of your application"}
-🐰 Keploy: 2025-06-27T11:45:47+05:30 	[31mERROR[0m	Error removing file	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}
-🐰 Keploy: 2025-06-27T11:45:47+05:30 	[31mERROR[0m	Failed to delete Keploy Logs	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}
-🐰 Keploy: 2025-06-27T11:46:27+05:30 	[31mERROR[0m	failed to get service	{"command": "record", "error": "command not supported in non linux os. if you are on windows or mac, please use the dockerized version of your application"}
-🐰 Keploy: 2025-06-27T11:46:27+05:30 	[31mERROR[0m	Error removing file	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}
-🐰 Keploy: 2025-06-27T11:46:27+05:30 	[31mERROR[0m	Failed to delete Keploy Logs	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}
-🐰 Keploy: 2025-06-27T12:39:18+05:30 	[34mINFO[0m	Starting keploy in docker with image	{"image:": "ghcr.io/keploy/keploy:v2.6.14"}
-🐰 Keploy: 2025-06-27T12:39:18+05:30 	[34mINFO[0m	Starting keploy in docker with default context, as that is the current context.
-🐰 Keploy: 2025-06-27T07:10:38Z 	[34mINFO[0m	detected that Keploy is running in a docker container
-🐰 Keploy: 2025-06-27T07:10:38Z 	[34mINFO[0m	trying to inject network:keploy-network to the keploy container
-🐰 Keploy: 2025-06-27T07:10:38Z 	[34mINFO[0m	Successfully injected network to the keploy container	{"Keploy container": "keploy-v2", "appNetwork": "keploy-network", "keploy container ip": "172.18.0.3"}
-🐰 Keploy: 2025-06-27T07:10:40Z 	[34mINFO[0m	keploy initialized and probes added to the kernel.
-🐰 Keploy: 2025-06-27T07:10:40Z 	[34mINFO[0m	starting UDP DNS server at addr :26789
-🐰 Keploy: 2025-06-27T07:10:40Z 	[34mINFO[0m	starting TCP DNS server at addr :26789
-🐰 Keploy: 2025-06-27T07:10:40Z 	[34mINFO[0m	Keploy has taken control of the DNS resolution mechanism, your application may misbehave if you have provided wrong domain name in your application code.
-🐰 Keploy: 2025-06-27T07:10:40Z 	[34mINFO[0m	Proxy started at port:16789
-🐰 Keploy: 2025-06-27T07:12:11Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-1"}
-🐰 Keploy: 2025-06-27T07:12:13Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-2"}
-🐰 Keploy: 2025-06-27T07:12:13Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-3"}
-🐰 Keploy: 2025-06-27T07:12:13Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-4"}
-🐰 Keploy: 2025-06-27T07:12:13Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-5"}
-🐰 Keploy: 2025-06-27T07:12:24Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-6"}
-🐰 Keploy: 2025-06-27T07:12:26Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-7"}
-🐰 Keploy: 2025-06-27T07:12:36Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-8"}
-🐰 Keploy: 2025-06-27T07:12:43Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-9"}
-🐰 Keploy: 2025-06-27T07:12:49Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-10"}
-🐰 Keploy: 2025-06-27T07:12:51Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-11"}
-🐰 Keploy: 2025-06-27T07:12:55Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-12"}
-🐰 Keploy: 2025-06-27T07:23:48Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-13"}
-🐰 Keploy: 2025-06-27T07:23:50Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-14"}
-🐰 Keploy: 2025-06-27T07:23:50Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-15"}
-🐰 Keploy: 2025-06-27T07:23:50Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-16"}
-🐰 Keploy: 2025-06-27T07:23:50Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-17"}
-🐰 Keploy: 2025-06-27T07:23:59Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-18"}
-🐰 Keploy: 2025-06-27T07:24:10Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-19"}
-🐰 Keploy: 2025-06-27T07:24:17Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-20"}
-🐰 Keploy: 2025-06-27T07:24:22Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-21"}
-🐰 Keploy: 2025-06-27T07:24:26Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-22"}
-🐰 Keploy: 2025-06-27T07:24:47Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/KIIT/Desktop/my-api-server/keploy/test-set-0/tests", "testcase name": "test-23"}
+🐰 Keploy: 2025-06-27T18:54:23+05:30 	[34mINFO[0m	Starting keploy in docker with image	{"image:": "ghcr.io/keploy/keploy:v2.6.14"}
+🐰 Keploy: 2025-06-27T18:54:23+05:30 	[34mINFO[0m	Starting keploy in docker with default context, as that is the current context.
+🐰 Keploy: 2025-06-27T13:24:24Z 	[34mINFO[0m	detected that Keploy is running in a docker container
+🐰 Keploy: 2025-06-27T13:24:24Z 	[33mWARN[0m	buildDelay is set to 30, incase your docker container takes more time to build use --buildDelay to set custom delay
+🐰 Keploy: 2025-06-27T13:24:24Z 	[34mINFO[0m	Example usage: keploy record -c "docker-compose up --build" --buildDelay 35
+🐰 Keploy: 2025-06-27T13:24:24Z 	[31mERROR[0m	failed to parse container name from given docker command	{"cmd": "docker run --network=keploy-network --name my-api-server my-api-server", "error": "failed to parse network name"}
+🐰 Keploy: 2025-06-27T13:24:24Z 	[33mWARN[0m	given docker network:(keploy-network) is different from parsed docker network:(), taking parsed value
+🐰 Keploy: 2025-06-27T13:24:24Z 	[34mINFO[0m	trying to inject network: to the keploy container
+🐰 Keploy: 2025-06-27T13:24:24Z 	[31mERROR[0m	failed to inject network to the keploy container
+🐰 Keploy: 2025-06-27T13:24:24Z 	[31mERROR[0m	failed to inject network: to the keploy container	{"error": "Error response from daemon: page not found"}
+🐰 Keploy: 2025-06-27T13:24:24Z 	[31mERROR[0m	failed to setup app	{"error": "Error response from daemon: page not found"}
+🐰 Keploy: 2025-06-27T13:24:24Z 	[31mERROR[0m	failed setting up the environment	{"error": "Error response from daemon: page not found"}
+🐰 Keploy: 2025-06-27T13:24:24Z 	[31mERROR[0m	failed to instrument the application	{"error": "failed setting up the environment"}
+🐰 Keploy: 2025-06-27T13:24:24Z 	[34mINFO[0m	stopping Keploy	{"reason": "failed to instrument the application"}
+🐰 Keploy: 2025-06-27T13:24:24Z 	[31mERROR[0m	failed to record	{"error": "failed to instrument the application"}
+🐰 Keploy: 2025-06-27T13:24:24Z 	[31mERROR[0m	Error removing file	{"error": "remove keploy-logs.txt: permission denied"}
+🐰 Keploy: 2025-06-27T13:24:24Z 	[31mERROR[0m	Failed to delete Keploy Logs	{"error": "remove keploy-logs.txt: permission denied"}
+🐰 Keploy: 2025-06-27T18:54:25+05:30 	[34mINFO[0m	exiting the current process as the command is moved to docker
+🐰 Keploy: 2025-06-27T19:02:23+05:30 	[34mINFO[0m	Starting keploy in docker with image	{"image:": "ghcr.io/keploy/keploy:v2.6.14"}
+🐰 Keploy: 2025-06-27T19:02:23+05:30 	[34mINFO[0m	Starting keploy in docker with default context, as that is the current context.
+🐰 Keploy: 2025-06-27T13:32:24Z 	[34mINFO[0m	detected that Keploy is running in a docker container
+🐰 Keploy: 2025-06-27T13:32:24Z 	[33mWARN[0m	buildDelay is set to 30, incase your docker container takes more time to build use --buildDelay to set custom delay
+🐰 Keploy: 2025-06-27T13:32:24Z 	[34mINFO[0m	Example usage: keploy record -c "docker-compose up --build" --buildDelay 35
+🐰 Keploy: 2025-06-27T13:32:24Z 	[31mERROR[0m	container name not found	{"AppCmd": "docker-compose up"}
+🐰 Keploy: 2025-06-27T13:32:24Z 	[31mERROR[0m	failed to setup app	{"error": "container name not found"}
+🐰 Keploy: 2025-06-27T13:32:24Z 	[31mERROR[0m	failed setting up the environment	{"error": "container name not found"}
+🐰 Keploy: 2025-06-27T13:32:24Z 	[31mERROR[0m	failed to instrument the application	{"error": "failed setting up the environment"}
+🐰 Keploy: 2025-06-27T13:32:24Z 	[34mINFO[0m	stopping Keploy	{"reason": "failed to instrument the application"}
+🐰 Keploy: 2025-06-27T13:32:24Z 	[31mERROR[0m	failed to record	{"error": "failed to instrument the application"}
+🐰 Keploy: 2025-06-27T13:32:24Z 	[31mERROR[0m	Error removing file	{"error": "remove keploy-logs.txt: permission denied"}
+🐰 Keploy: 2025-06-27T13:32:24Z 	[31mERROR[0m	Failed to delete Keploy Logs	{"error": "remove keploy-logs.txt: permission denied"}
+🐰 Keploy: 2025-06-27T19:02:25+05:30 	[34mINFO[0m	exiting the current process as the command is moved to docker
+🐰 Keploy: 2025-06-27T19:03:51+05:30 	[34mINFO[0m	Starting keploy in docker with image	{"image:": "ghcr.io/keploy/keploy:v2.6.14"}
+🐰 Keploy: 2025-06-27T19:03:51+05:30 	[34mINFO[0m	Starting keploy in docker with default context, as that is the current context.
+🐰 Keploy: 2025-06-27T13:33:52Z 	[34mINFO[0m	detected that Keploy is running in a docker container
+🐰 Keploy: 2025-06-27T13:33:52Z 	[33mWARN[0m	buildDelay is set to 30, incase your docker container takes more time to build use --buildDelay to set custom delay
+🐰 Keploy: 2025-06-27T13:33:52Z 	[34mINFO[0m	Example usage: keploy record -c "docker-compose up --build" --buildDelay 35
+🐰 Keploy: 2025-06-27T13:33:52Z 	[31mERROR[0m	container name not found	{"AppCmd": "docker-compose up"}
+🐰 Keploy: 2025-06-27T13:33:52Z 	[31mERROR[0m	failed to setup app	{"error": "container name not found"}
+🐰 Keploy: 2025-06-27T13:33:52Z 	[31mERROR[0m	failed setting up the environment	{"error": "container name not found"}
+🐰 Keploy: 2025-06-27T13:33:52Z 	[31mERROR[0m	failed to instrument the application	{"error": "failed setting up the environment"}
+🐰 Keploy: 2025-06-27T13:33:52Z 	[34mINFO[0m	stopping Keploy	{"reason": "failed to instrument the application"}
+🐰 Keploy: 2025-06-27T13:33:52Z 	[31mERROR[0m	failed to record	{"error": "failed to instrument the application"}
+🐰 Keploy: 2025-06-27T13:33:52Z 	[31mERROR[0m	Error removing file	{"error": "remove keploy-logs.txt: permission denied"}
+🐰 Keploy: 2025-06-27T13:33:52Z 	[31mERROR[0m	Failed to delete Keploy Logs	{"error": "remove keploy-logs.txt: permission denied"}
+🐰 Keploy: 2025-06-27T19:03:53+05:30 	[34mINFO[0m	exiting the current process as the command is moved to docker
+🐰 Keploy: 2025-06-27T19:05:29+05:30 	[34mINFO[0m	Starting keploy in docker with image	{"image:": "ghcr.io/keploy/keploy:v2.6.14"}
+🐰 Keploy: 2025-06-27T19:05:29+05:30 	[34mINFO[0m	Starting keploy in docker with default context, as that is the current context.
+🐰 Keploy: 2025-06-27T13:35:30Z 	[34mINFO[0m	detected that Keploy is running in a docker container
+🐰 Keploy: 2025-06-27T13:35:30Z 	[33mWARN[0m	buildDelay is set to 30, incase your docker container takes more time to build use --buildDelay to set custom delay
+🐰 Keploy: 2025-06-27T13:35:30Z 	[34mINFO[0m	Example usage: keploy record -c "docker-compose up --build" --buildDelay 35
+🐰 Keploy: 2025-06-27T13:35:30Z 	[31mERROR[0m	container name not found	{"AppCmd": "docker-compose up"}
+🐰 Keploy: 2025-06-27T13:35:30Z 	[31mERROR[0m	failed to setup app	{"error": "container name not found"}
+🐰 Keploy: 2025-06-27T13:35:30Z 	[31mERROR[0m	failed setting up the environment	{"error": "container name not found"}
+🐰 Keploy: 2025-06-27T13:35:30Z 	[31mERROR[0m	failed to instrument the application	{"error": "failed setting up the environment"}
+🐰 Keploy: 2025-06-27T13:35:30Z 	[34mINFO[0m	stopping Keploy	{"reason": "failed to instrument the application"}
+🐰 Keploy: 2025-06-27T13:35:30Z 	[31mERROR[0m	failed to record	{"error": "failed to instrument the application"}
+🐰 Keploy: 2025-06-27T13:35:30Z 	[31mERROR[0m	Error removing file	{"error": "remove keploy-logs.txt: permission denied"}
+🐰 Keploy: 2025-06-27T13:35:30Z 	[31mERROR[0m	Failed to delete Keploy Logs	{"error": "remove keploy-logs.txt: permission denied"}
+🐰 Keploy: 2025-06-27T19:05:30+05:30 	[34mINFO[0m	exiting the current process as the command is moved to docker
+🐰 Keploy: 2025-06-27T19:06:41+05:30 	[34mINFO[0m	Starting keploy in docker with image	{"image:": "ghcr.io/keploy/keploy:v2.6.14"}
+🐰 Keploy: 2025-06-27T19:06:41+05:30 	[34mINFO[0m	Starting keploy in docker with default context, as that is the current context.
+🐰 Keploy: 2025-06-27T13:36:41Z 	[34mINFO[0m	detected that Keploy is running in a docker container
+🐰 Keploy: 2025-06-27T13:36:41Z 	[33mWARN[0m	buildDelay is set to 30, incase your docker container takes more time to build use --buildDelay to set custom delay
+🐰 Keploy: 2025-06-27T13:36:41Z 	[34mINFO[0m	Example usage: keploy record -c "docker-compose up --build" --buildDelay 35
+🐰 Keploy: 2025-06-27T13:36:41Z 	[34mINFO[0m	keploy requires docker compose containers to be run with external network
+🐰 Keploy: 2025-06-27T13:36:41Z 	[34mINFO[0m	Found docker compose file path: docker-compose.yml
+🐰 Keploy: 2025-06-27T13:36:41Z 	[34mINFO[0m	Created new docker-compose for keploy internal use	{"path": "docker-compose-tmp.yaml"}
+🐰 Keploy: 2025-06-27T13:36:41Z 	[34mINFO[0m	trying to inject network:keploy-net to the keploy container
+🐰 Keploy: 2025-06-27T13:36:41Z 	[34mINFO[0m	Successfully injected network to the keploy container	{"Keploy container": "keploy-v2", "appNetwork": "keploy-net", "keploy container ip": "172.19.0.2"}
+🐰 Keploy: 2025-06-27T13:36:44Z 	[34mINFO[0m	keploy initialized and probes added to the kernel.
+🐰 Keploy: 2025-06-27T13:36:45Z 	[34mINFO[0m	starting UDP DNS server at addr :26789
+🐰 Keploy: 2025-06-27T13:36:45Z 	[34mINFO[0m	starting TCP DNS server at addr :26789
+🐰 Keploy: 2025-06-27T13:36:45Z 	[34mINFO[0m	Keploy has taken control of the DNS resolution mechanism, your application may misbehave if you have provided wrong domain name in your application code.
+🐰 Keploy: 2025-06-27T13:36:45Z 	[34mINFO[0m	Proxy started at port:16789
+🐰 Keploy: 2025-06-27T13:36:46Z 	[31mERROR[0m	Application stopped with the error	{"error": "exit status 127"}
+🐰 Keploy: 2025-06-27T13:36:46Z 	[31mERROR[0m	error while running the app	{"error": "exit status 127"}
+🐰 Keploy: 2025-06-27T13:36:46Z 	[31mERROR[0m	internal error occured while hooking into the application, hence stopping keploy
+🐰 Keploy: 2025-06-27T13:36:46Z 	[34mINFO[0m	stopping Keploy	{"reason": "internal error occured while hooking into the application, hence stopping keploy"}
+🐰 Keploy: 2025-06-27T13:36:46Z 	[34mINFO[0m	proxy stopped...
+🐰 Keploy: 2025-06-27T13:36:49Z 	[34mINFO[0m	eBPF resources released successfully...
+🐰 Keploy: 2025-06-27T13:36:49Z 	[31mERROR[0m	failed to record	{"error": "internal error occured while hooking into the application, hence stopping keploy"}
+🐰 Keploy: 2025-06-27T13:36:49Z 	[31mERROR[0m	Error removing file	{"error": "remove keploy-logs.txt: permission denied"}
+🐰 Keploy: 2025-06-27T13:36:49Z 	[31mERROR[0m	Failed to delete Keploy Logs	{"error": "remove keploy-logs.txt: permission denied"}
+🐰 Keploy: 2025-06-27T19:06:50+05:30 	[34mINFO[0m	exiting the current process as the command is moved to docker
+🐰 Keploy: 2025-06-27T19:08:29+05:30 	[31mERROR[0m	failed to get service	{"command": "record", "error": "command not supported in non linux os. if you are on windows or mac, please use the dockerized version of your application"}
+🐰 Keploy: 2025-06-27T19:08:29+05:30 	[31mERROR[0m	Error removing file	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}
+🐰 Keploy: 2025-06-27T19:08:29+05:30 	[31mERROR[0m	Failed to delete Keploy Logs	{"error": "remove keploy-logs.txt: The process cannot access the file because it is being used by another process."}

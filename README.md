@@ -52,8 +52,7 @@ Replayed them using the CLI locally to validate.
 
 ---
 
-📂 GitHub Repo & Submission
-🔗 GitHub Repo: https://github.com/YourUsername/keploy-api-testing
+
 
 📝 Contains:
 
